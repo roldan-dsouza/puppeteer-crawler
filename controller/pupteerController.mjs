@@ -1,5 +1,5 @@
 import puppeteer from "puppeteer";
-
+//THIS SHOULD NOT BE IN CONTROLLER 
 // Function to crawl a URL
 const crawl = async (url, depth, maxSites, visitedUrls = new Set()) => {
   // Stop if depth is zero, max sites reached, or the URL has already been visited
